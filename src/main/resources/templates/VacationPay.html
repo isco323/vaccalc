@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Результат расчета отпускных</title>
+</head>
+<body>
+  <h1>Результат расчета отпускных</h1>
+  <form method="get" action="calculate?averageSalary=' + averageSalary.value + '&vacationDays=' + vacationDays.value +'&vacationStartDate=' + vacationStartDate.value;">
+    <input id="search" placeholder="Средняя зп" type="search" name="averageSalary"></input>
+    <input id="search" placeholder="Дни отпуска" type="search" name="vacationDays"></input>
+    <input id="search" placeholder="День ухода(dd/mm/yyyy)" type="search" name="vacationStartDate"></input>
+    <input type="submit" value="Рассчитать">
+    </form>
+</body>
+</html>
